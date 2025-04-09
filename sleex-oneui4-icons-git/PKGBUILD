@@ -9,9 +9,9 @@ license=('GPL3')
 source=("git+${url}.git")
 sha256sums=('SKIP')
 options=('!strip')
-provides=('illogical-impulse-microtex-git')
-replaces=('illogical-impulse-microtex-git')
-conflicts=('illogical-impulse-microtex-git')
+provides=('illogical-impulse-oneui4-icons-git')
+replaces=('illogical-impulse-oneui4-icons-git')
+conflicts=('illogical-impulse-oneui4-icons-git')
 
 
 pkgver(){
