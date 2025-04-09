@@ -1,7 +1,7 @@
 pkgname=sleex-oneui4-icons-git
 _pkgname=OneUI4-Icons
-pkgver=r64.9ba2190
-pkgrel=2
+pkgver=r70.55eada4
+pkgrel=1
 pkgdesc="A fork of mjkim0727/OneUI4-Icons for Sleex."
 arch=('x86_64')
 url="https://github.com/end-4/OneUI4-Icons"

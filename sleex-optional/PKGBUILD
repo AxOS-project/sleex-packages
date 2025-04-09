@@ -30,7 +30,7 @@ depends=(
 	# "nautilus"
 	"thunar" 
 	"loupe"
-	"axularis"
+	"axuralis"
 	)
 provides=('illogical-impulse-optional')
 replaces=('illogical-impulse-optional')
