@@ -1,21 +1,20 @@
-pkgname=illogical-impulse-microtex-git
+pkgname=sleex-microtex-git
 _pkgname=MicroTeX
 pkgver=r494.0e3707f
-pkgrel=1
-pkgdesc='MicroTeX for illogical-impulse dotfiles.'
+pkgrel=3
+pkgdesc='MicroTeX for Sleex.'
 #pkgdesc="A dynamic, cross-platform, and embeddable LaTeX rendering library"
 arch=("x86_64")
 url="https://github.com/NanoMichael/${_pkgname}"
 license=('MIT')
-depends=(
-	tinyxml2
-	gtkmm3
-	gtksourceviewmm
-	cairomm
-)
+depends=('tinyxml2' 'gtkmm3' 'gtksourceviewmm' 'cairomm')
 makedepends=("git" "cmake")
 source=("git+${url}.git")
 sha256sums=("SKIP")
+provides=('illogical-impulse-microtex-git')
+replaces=('illogical-impulse-microtex-git')
+conflicts=('illogical-impulse-microtex-git')
+
 
 pkgver() {
   cd $_pkgname

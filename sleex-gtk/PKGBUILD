@@ -1,0 +1,10 @@
+pkgname=sleex-gtk
+pkgver=1.0
+pkgrel=3
+pkgdesc='Sleex GTK Dependencies'
+arch=(any)
+license=(None)
+depends=('webp-pixbuf-loader' 'gtk-layer-shell' 'gtk3' 'gtksourceview3' 'gobject-introspection' 'upower' 'yad' 'ydotool' 'xdg-user-dirs-gtk')
+provides=('illogical-impulse-gtk')
+replaces=('illogical-impulse-gkt')
+conflicts=('illogical-impulse-gtk')

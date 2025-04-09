@@ -1,0 +1,10 @@
+pkgname=sleex-screencapture
+pkgver=1.0
+pkgrel=3
+pkgdesc='Sleex Screenshot and Recording Dependencies'
+arch=(any)
+license=(None)
+depends=('swappy' 'wf-recorder' 'grim' 'tesseract' 'tesseract-data-eng' 'slurp')
+provides=('illogical-impulse-screencapture')
+replaces=('illogical-impulse-screencapture')
+conflicts=('illogical-impulse-screencapture')

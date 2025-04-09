@@ -1,0 +1,10 @@
+pkgname=sleex-basic
+pkgver=1.0
+pkgrel=6
+pkgdesc='Sleex Basic Dependencies'
+arch=(any)
+license=(None)
+depends=("axel" "bc" "coreutils" "cliphist" "cmake" "curl" "fuzzel" "rsync" "wget" "ripgrep" "jq" "npm" "meson" "typescript" "gjs" "xdg-user-dirs" "swww")
+provides=('illogical-impulse-basic')
+replaces=('illogical-impulse-basic')
+conflicts=('illogical-impulse-basic')

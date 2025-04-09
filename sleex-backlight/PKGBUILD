@@ -1,0 +1,10 @@
+pkgname=sleex-backlight
+pkgver=1.0
+pkgrel=2
+pkgdesc='Sleex Backlight Dependencies'
+arch=(any)
+license=(None)
+depends=('brightnessctl' 'ddcutil')
+provides=('illogical-impulse-backlight')
+replaces=('illogical-impulse-backlight')
+conflicts=('illogical-impulse-backlight')

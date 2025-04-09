@@ -1,0 +1,10 @@
+pkgname=sleex-widgets
+pkgver=1.0
+pkgrel=7
+pkgdesc='Sleex Widget Dependencies'
+arch=(any)
+license=(None)
+depends=("dart-sass" "python-pywayland" "python-psutil" "wlogout" "wl-clipboard" "anyrun-git" "lm_sensors" "gojq")
+provides=('illogical-impulse-widgets')
+replaces=('illogical-impulse-widgets')
+conflicts=('illogical-impulse-widgets')

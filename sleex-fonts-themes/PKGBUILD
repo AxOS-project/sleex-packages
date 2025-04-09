@@ -1,0 +1,10 @@
+pkgname=sleex-fonts-themes
+pkgver=1.0
+pkgrel=4
+pkgdesc='Sleex Fonts and Theming Dependencies'
+arch=(any)
+license=(None)
+depends=('adw-gtk-theme' 'qt5ct' 'qt5-wayland' 'fontconfig' 'ttf-readex-pro' 'ttf-jetbrains-mono-nerd' 'ttf-material-symbols-variable-git' 'ttf-space-mono-nerd' 'ttf-rubik-vf' 'ttf-gabarito-git' 'fish' 'foot' 'starship')
+provides=('illogical-impulse-fonts-themes')
+replaces=('illogical-impulse-fonts-themes')
+conflicts=('illogical-impulse-fonts-themes')

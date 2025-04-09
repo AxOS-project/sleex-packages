@@ -1,11 +1,13 @@
-pkgname=illogical-impulse-bibata-modern-classic-bin
+pkgname=sleex-bibata-modern-classic-bin
 pkgver=2.0.6
-pkgrel=1
-pkgdesc="Material Based Cursor Theme, installed for illogical-impulse dotfiles"
+pkgrel=2
+pkgdesc="Material Based Cursor Theme, installed for Sleex"
 arch=('any')
 url="https://github.com/ful1e5/Bibata_Cursor"
 license=('GPL-3.0-or-later')
-conflicts=("bibata-cursor-theme" "bibata-cursor-theme-bin")
+provides=('illogical-impulse-bibata-modern-classic-bin')
+replaces=('illogical-impulse-bibata-modern-classic-bin')
+conflicts=("bibata-cursor-theme" "bibata-cursor-theme-bin" "illogical-impulse-bibata-modern-classic-bin")
 options=('!strip')
 _variant=Bibata-Modern-Classic
 source=("${pkgname%-bin}-$pkgver.tar.xz::$url/releases/download/v$pkgver/$_variant.tar.xz")

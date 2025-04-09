@@ -1,0 +1,18 @@
+pkgname=sleex-gnome
+pkgver=1.1
+pkgrel=2
+pkgdesc='Sleex GNOME Dependencies'
+arch=(any)
+license=(None)
+depends=(
+	'polkit-gnome' 
+	'gnome-keyring' 
+	# 'gnome-control-center' 
+	'blueberry' 
+	'networkmanager' 
+	'gammastep' 
+	'gnome-bluetooth-3.0'
+	)
+provides=('illogical-impulse-gnome')
+replaces=('illogical-impulse-gnome')
+conflicts=('illogical-impulse-gnome')
