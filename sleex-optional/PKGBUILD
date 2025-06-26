@@ -1,11 +1,11 @@
 pkgname=sleex-optional
 pkgver=1.2
-pkgrel=1
+pkgrel=2
 pkgdesc='Sleex Optional Packages'
 arch=(any)
 license=(None)
 depends=(
-	"hyprwayland-scanner-git" 
+	"hyprwayland-scanner" 
 	"neofetch" 
 	"firefox" 
 	"bash-completion" 

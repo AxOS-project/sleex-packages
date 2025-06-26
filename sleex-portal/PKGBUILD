@@ -1,10 +1,10 @@
 pkgname=sleex-portal
 pkgver=1.0
-pkgrel=3
+pkgrel=4
 pkgdesc='Sleex XDG Desktop Portals'
 arch=(any)
 license=(None)
-depends=('xdg-desktop-portal' 'xdg-desktop-portal-gtk' 'xdg-desktop-portal-hyprland-git')
+depends=('xdg-desktop-portal' 'xdg-desktop-portal-gtk' 'xdg-desktop-portal-hyprland')
 provides=('illogical-impulse-portal')
 replaces=('illogical-impulse-portal')
 conflicts=('illogical-impulse-portal')
